@@ -5,7 +5,7 @@ A job consists of a name, a node/node pool, a list of actions, a schedule, and
 an optional cleanup action. They are periodic events that do not interact with
 other jobs while running.
 
-If all actions exit with status 0, the job has succeeded. If any action exists
+If all actions exit with status 0, the job has succeeded. If any action exits
 with a nonzero status, the job has failed.
 
 
